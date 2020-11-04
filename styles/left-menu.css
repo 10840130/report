@@ -6,10 +6,10 @@
   padding-top: 150px;
   margin-bottom: 20px;
   vertical-align: middle;
-  background-color: pink;
+  background-color: #C6CA84;
   display: flex;
   flex-direction: column;
-  box-shadow: 5px 0px 10px hsla(350, 73%, 30%, 0.4);
+  box-shadow: 5px 0px 10px hsla(63, 40%, 65%, 0.4);
   transform: translateX(-100%);
   transition: 0.5s;
 }
