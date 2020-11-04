@@ -30,6 +30,7 @@
   z-index: 1;
   background-color: #C0D9EF;
   opacity: 0.8;
+  line-height: 1.5;
 }
 
 .item>:first-child {
