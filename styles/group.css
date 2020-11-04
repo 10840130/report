@@ -1,0 +1,69 @@
+.card {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+
+.item {
+  width: 25%;
+  position: relative;
+  padding: 10px;
+}
+
+.item img {
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.item .txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgba(7, 7, 7, 0.7);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: .3s;
+}
+
+.item:hover .txt {
+  opacity: 1;
+}
+
+.item .txt h2 {
+  font-size: 24pt;
+  color: red;
+}
+
+.item .txt p {
+  font-size: 16pt;
+  color: white;
+}
+
+.ig {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.ig .member {
+  width: 25%;
+  margin-bottom: 200px;
+}
+
+.ig .member .ig-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.ig img {
+  width: 40px;
+  height: 40px;
+
+
+}

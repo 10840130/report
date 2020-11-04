@@ -1,0 +1,34 @@
+.banner {
+  width: 100%;
+  height: 600px;
+  background-color: #ccc;
+  background:
+    linear-gradient(109deg, #F8F5DF 50%, transparent 50%) center center/100% 100%,
+    url("/images/多媒體網頁照片_201104_10.jpg") right center / auto 100%;
+}
+
+.banner .container {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+
+.in-txt {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.in-txt h1 {
+  font-size: 80px;
+  border-bottom: 1px solid gainsboro;
+  font-weight: 600;
+}
+
+.in-txt h2 {
+  font-size: 30px;
+  font-weight: 450;
+}
